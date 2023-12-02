@@ -1,0 +1,24 @@
+body{
+    color: azure;
+    font-family: cursive;
+}
+.menu{
+ background: none;
+    font-size: 3vh;
+    border-radius: 2vh;
+    font-style: italic;
+    color:white;
+    border: 2px solid white;
+    padding:3vh;
+    font-family: cursive;
+}
+
+.open{
+    margin: 15vh;
+    display: flex;
+    font-family: cursive;
+    justify-content: center;
+}
+.open button:hover{
+   background-color: orange;
+}

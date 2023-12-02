@@ -1,0 +1,105 @@
+
+body{
+    color: aliceblue;
+}
+.navbar {
+    overflow: hidden;  
+    font-size: 2.5vh; 
+    font-family: cursive;
+    /* background-color: #000000; */
+}
+
+/* Style the navbar links*/
+.navbar Link {
+    float:left;
+    display: block;
+  color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    margin-left: 2vh;
+    font-family: cursive;
+
+}
+.navbar span{
+    font-family: cursive;
+    float: right;
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 11px;
+    text-decoration: none;
+    margin-right: 2vh;
+} 
+/* Change color on hover */
+.navbar a:hover {
+    background-color: #ddd;
+    color: black;
+} 
+
+/* Add the sticky class to the navbar when you scroll down */
+.sticky {
+    /* position: fixed; */
+    top: 0;
+    width: 100%;
+}
+.n{
+    display: flex;
+
+    justify-content: center;
+ margin: 2vh; 
+ background-color:pink;  
+ border-radius: 5vh;
+ align-items: center;
+}
+.na{
+    font-size: 3vh;
+    color:black;
+font-weight: bold;
+    margin:2vh;
+    font-family: cursive;
+    
+}
+.ru{
+    color:black;
+    font-size: 3vh;
+    margin: 2vh;
+    font-family: cursive;
+}
+.i{
+    width: 10vh;
+    height:10vh;
+    margin:2vh;
+    font-family: cursive;
+}
+.o{
+    background-color: yellow;
+    color: black;
+    font-size: 2.5vh;
+    border-radius: 2vh;
+    padding: 1vh;
+    margin:2vh;
+    border: 2px solid black;
+    font-family: cursive;
+}
+.total{
+    font-family: cursive;
+    font-size: 3vh;
+    padding: 1vh;
+    margin: 2vh;
+    display: flex;
+    justify-content: center;
+    border: 2px solid pink;
+    border-radius: 5vh;
+}
+.tota{
+    font-family: cursive;
+    font-size: 3vh;
+    padding: 1vh;
+    margin: 2vh;
+    display: flex;
+    justify-content: center;
+    border: 2px solid pink;
+    border-radius: 5vh;
+    background-color:red;
+}

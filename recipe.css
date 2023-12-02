@@ -1,0 +1,42 @@
+.recipeTile {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+    margin:2vh;
+    font-family: cursive;
+  }
+  
+  .recipeTile__image {
+    height: 200px;
+    width: 200px;
+    object-fit: cover;
+    border-radius: 5px;
+    font-family: cursive;
+  }
+  
+  .recipeTile__name {
+    max-width: 200px;
+    text-align: center;
+    margin: 12px 0;
+    color: red;
+    border:1px solid red;
+    border-radius: 5px;
+    font-family: cursive;
+    padding: 1vh;
+  }
+  .order{
+    font-size:2vh;
+    color: yellow;
+border-radius:5px;
+border:1px solid yellow;
+padding:1vh;
+font-family: cursive;
+}
+.order:hover{
+    background-color: yellow;
+    color:black;
+    font-family: cursive;
+    font-size: 2.5vh;
+}

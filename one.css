@@ -1,0 +1,189 @@
+/* 
+Style the navbar */
+.navbar {
+    overflow: hidden;  
+    font-size: 2.5vh; 
+    font-family: cursive;
+    /* background-color: #000000; */
+}
+
+/* Style the navbar links*/
+.navbar Link {
+    float:left;
+    display: block;
+  color: white;
+    text-align: center;
+    font-family: cursive;
+    padding: 14px 16px;
+    text-decoration: none;
+    margin-left: 2vh;
+}
+.navbar span{
+    float: right;
+    display: block;
+    color: white;
+    font-family: cursive;
+    text-align: center;
+    padding: 14px 11px;
+    text-decoration: none;
+    margin-right: 2vh;
+} 
+/* Change color on hover */
+.navbar a:hover {
+    background-color: #ddd;
+    color: black;
+    font-family: cursive;
+} 
+
+/* Add the sticky class to the navbar when you scroll down */
+.sticky {
+    /* position: fixed; */
+    top: 0;
+    width: 100%;
+    font-family: cursive;
+}
+
+
+.ri{
+    width:15vh;
+margin-left:50%;
+font-family: cursive;
+}
+ @media only screen and (max-width: 768px) {
+.navbar a{
+    float:none;
+}
+.navbar span{
+    float: none;
+}
+  }
+  .text{
+    color:beige;
+    display: flex;
+    margin: 20vh;
+   
+    justify-content: center;
+    font-size:3vh;
+    font-family: cursive;
+
+    font-style: italic;
+    text-align: center;
+      }
+  .texten{
+    color:grey;
+    display: flex;
+    margin-top: 5vh;
+    font-family: cursive;
+    justify-content: center;
+    font-size:3vh;
+    font-style: italic;
+  }
+  .food{
+    display: flex;
+    justify-content: center;
+    font-family: cursive;
+    font-size: 6vh;
+    font-style: italic;
+  align-items: center;
+  
+  }
+  .teen{
+    display: flex;
+    justify-content: center;
+    margin:2vh;
+    font-family: cursive;
+    padding: 2vh;
+  }
+  .select{
+    margin: 4vh;
+    text-align: center;
+    font-family: cursive;
+  }
+  .para{
+    padding: 4vh;
+    display: flex;
+    justify-content: center;
+    font-family: cursive;
+    text-align: center;
+  }
+  .new{
+    font-family: cursive;
+    display: flex;
+    justify-content: center;
+   
+    text-align: center;
+  }
+.hr{
+  display: flex;
+  justify-content: center;
+  font-family: cursive;
+  
+}
+.restp{
+  text-align: center;
+  padding:8vh;
+  font-size: 3vh;
+  font-family: cursive;
+  font-style: italic;
+}
+  .rest{
+    display: flex;
+  justify-content: center;
+  font-family: cursive;
+  }
+  .book{
+    padding: 2vh;
+    margin: 3vh;
+    font-family: cursive;
+  }
+  .book button{
+    font-family: cursive;
+    background: none;
+    border-radius: 3vh;
+    color: antiquewhite;
+    font-size: large;
+    padding: 3vh;
+  }
+  .book button:hover{
+    background-color: aquamarine;
+    color: black;
+  }
+  .resti{
+    width:100vh;
+    padding: 3vh;
+    font-family: cursive;
+  }
+    @media only screen and (max-width: 768px) {
+    .text{
+    font-size:3vh;  
+    color:aliceblue;
+  display: flex;
+  justify-content: center;
+ 
+    }
+    .fast{
+      margin:0.5vh;
+      padding: 1vh;
+      font-family: cursive;
+    }
+    .imenu{
+      width: 15vh;
+      font-family: cursive;
+    }
+  }
+  .fast{
+    font-size:3vh;
+    background-color: grey;
+    border-radius:3vh;
+    margin: 2vh;
+    padding:2vh;
+    color:black;
+    font-family: cursive;
+  }
+  .fast:hover{
+    background-color: rgb(55, 50, 50);
+  }
+  .imenu{
+    width:45vh;
+    font-family: cursive;
+  }
