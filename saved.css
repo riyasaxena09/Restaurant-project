@@ -1,0 +1,100 @@
+.cover{
+    margin: 2vh;
+
+   
+}
+.head{
+    color: red;
+    font-size: 6vh;
+ 
+}
+.cover h1{
+    display: flex;
+    justify-content: center;
+}
+.dishes img{
+    width:35vh;
+    height:35vh;
+    border-radius: 5vh;
+    font-family: cursive;
+}
+.dishes{
+    display: flex;
+    justify-content: center;
+    font-family: cursive;
+}
+.order{
+    font-size:2vh;
+    color: yellow;
+border-radius:5px;
+border:1px solid yellow;
+padding:1vh;
+font-family: cursive;
+}
+.order:hover{
+    background-color: yellow;
+    color:black;
+    font-size: 2.5vh;
+    font-family: cursive;
+}
+.rup{
+    display: flex;
+    justify-content: center;
+    color: red;
+    font-family: cursive;
+}
+.rupee{
+    margin:1vh;
+}
+.name{
+    color: red;
+    border:1px solid red;
+    border-radius: 5px;
+    margin:2vh;
+    padding: 1vh;
+    font-family: cursive;
+}
+.back{
+    width: 45px;
+    margin:0px;
+    font-family: cursive;
+}
+.back:hover{
+    width: 60px; 
+}
+.m{
+    display: flex;
+    justify-content: center;
+    font-family: cursive;
+}
+.more{
+   font-size: 3vh;
+ margin: 3vh;
+ font-family: cursive;
+color: grey;
+}
+.go{
+    color: red;
+    background-color: aliceblue;
+    font-size: 3vh;
+    padding:1vh;
+    font-family: cursive;
+    width:10vh;
+    border-radius: 2.5vh;
+}
+.go:hover{
+    background-color: red;
+    color: aliceblue;
+    font-size: 3.5vh;
+    padding: 1.5vh;
+    font-family: cursive;
+}
+.nam{
+ display: flex;
+ font-family: cursive;
+ justify-content: center;
+ flex-direction: column;
+ margin: 6vh;
+ align-items: center;
+ font-size: 3vh;
+}
